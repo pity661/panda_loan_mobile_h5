@@ -1,0 +1,71 @@
+/* 
+ * 媒体查询，自适应屏幕大小
+ * rem: 相对长度单位，指相对于根元素的字体大小的单位（rem只会相对html的值）
+ */
+
+html {
+    font-size: 10px;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    /*Firefox3.5+*/
+    -webkit-box-sizing: border-box;
+    /*Safari3.2+*/
+    -o-box-sizing: border-box;
+    /*Opera9.6*/
+    -ms-box-sizing: border-box;
+    /*IE8*/
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    html {
+        font-size: 11px
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:414px) {
+    html {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width:415px) and (max-width:639px) {
+    html {
+        font-size: 15px
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:719px) {
+    html {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:749px) {
+    html {
+        font-size: 22.5px
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:799px) {
+    html {
+        font-size: 23.5px
+    }
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 25px
+    }
+}
+
+
+.ui-nodata {
+    text-align: center;
+    background: #fff;
+    color: #cdcacd;
+    font-size: 1rem;
+    padding: 1rem;
+}
