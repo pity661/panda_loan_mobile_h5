@@ -13,7 +13,7 @@
     "echarts": "^3.3.2",
     "element-ui": "^1.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^2.2.3",
+    "jquery": "^3.5.0",
     "js-md5": "^0.6.1",
     "mint-ui": "^2.2.12",
     "nprogress": "^0.2.0",
